@@ -76,6 +76,7 @@ body {
 
 /* Focus button */
 .focus-btn {
+  align-items: center;
   padding: 12px 24px;
   background-color: #4E47FF;
   color: white;
@@ -116,8 +117,8 @@ body {
 }
 
 .text-content p {
-    height: 60px;
-    width: 517px;
+  height: 60px;
+  width: 517px;
   font-size: 24px;
   margin-bottom: 20px;
   color: #252432;
@@ -130,7 +131,7 @@ body {
   color: white;
   padding: 10px 20px;
   border: none;
-  border-radius: 6px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
@@ -153,14 +154,16 @@ body {
 .stats-container {
  
   padding: 20px;
-  max-width: 600px;
+  max-width: 1040px;
+  max-height: 306px;
   margin: auto;
   border-radius: 8px;
   background-color: #e1e1f0;
 }
 
 .stats-header {
-  font-size: 22px;
+  text-align: center;
+  font-size: 38px;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -176,7 +179,7 @@ body {
 }
 
 .stat-value {
-  font-size: 32px;
+  font-size: 80px;
   color: #007BFF;
   font-weight: bold;
 }
@@ -258,6 +261,7 @@ body {
 
 
 .hero2-section {
+  text-align: center;
   max-width: 800px;
   margin: 0 auto;
   padding: 40px;
@@ -267,6 +271,7 @@ body {
 }
 
 .headline {
+  text-align: center;
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 10px;
@@ -279,18 +284,20 @@ body {
 }
 
 .cta-button {
+
   display: inline-block;
   padding: 12px 24px;
   background-color: #4E47FF;
   color: white;
   font-weight: bold;
-  border-radius: 6px;
+  border-radius: 12px;
   text-decoration: none;
-  transition: background 0.3s;
 }
 
 .cta-button:hover {
-  background-color: #0056b3;
+  background-color: #03045e;
+  color: #caf0f8;
+
 }
 
 .image-container {
@@ -299,7 +306,7 @@ body {
 
 .hero-image {
   max-width: 100%;
-  border-radius: 12px;
+  border-radius: 30px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
 
@@ -330,6 +337,11 @@ footer{
   color: white;
   border-radius: 12px;
 }
+
+#submit1:hover{
+  color: #caf0f8;
+  background-color: #03045e;
+}
 footer input[type="text"] , footer input[type="email"] , footer textarea{
    height: 64px;
    border-radius: 5px;
@@ -343,6 +355,8 @@ footer input[type="text"] , footer input[type="email"] , footer textarea{
 }
 
 .footer-navbar {
+  display: grid;
+  justify-content: center;
   background-color: white;
   padding: 20px 40px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -355,9 +369,9 @@ footer input[type="text"] , footer input[type="email"] , footer textarea{
 }
 
 .footer-nav-links{
-  margin-right: auto;
   margin-left: auto;
-  gap: 20px;
+  margin-right: auto;
+  
 }
 
 .footer-nav-links a {
@@ -369,8 +383,9 @@ footer input[type="text"] , footer input[type="email"] , footer textarea{
 
 
 .footer-main-content {
+  
   text-align: center;
-  padding: 100px 20px;
+  padding: 20px 20px;
   background: #ffffff;
 }
 
@@ -388,3 +403,4 @@ footer input[type="text"] , footer input[type="email"] , footer textarea{
   font-size: 16px;
   color: #555;
 }
+  
