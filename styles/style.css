@@ -66,16 +66,24 @@ body {
   cursor: pointer;
 }
 
+.signup-btn:hover{
+  background-color: #03045e;
+  color: #caf0f8;
+}
+
+
 /* Main title */
 .main-title {
   font-size: 65px;
   width: 905px;
   height: 152px;
   margin-bottom: 30px;
+  margin-left: 60px;
 }
 
 /* Focus button */
 .focus-btn {
+  margin-right: 50px;
   align-items: center;
   padding: 12px 24px;
   background-color: #4E47FF;
@@ -87,6 +95,10 @@ body {
   cursor: pointer;
 }
 
+.focus-btn:hover{
+  background-color: #03045e;
+  color: #caf0f8;
+}
 .container {
   max-width: 1100px;
   margin: auto;
@@ -135,6 +147,10 @@ body {
   cursor: pointer;
 }
 
+.launch-btn:hover{
+   background-color: #03045e;
+  color: #caf0f8;
+}
 .image-content {
   flex: 1;
   display: flex;
